@@ -4,7 +4,8 @@
   "description": "demo",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "husky install"
   },
   "author": "claire",
   "test command": "jest",
@@ -16,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/claire0613/2023-devposday-demo/issues"
   },
-  "homepage": "https://github.com/claire0613/2023-devposday-demo#readme"
+  "homepage": "https://github.com/claire0613/2023-devposday-demo#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "husky": "^8.0.0",
+    "semantic-release": "^22.0.5"
+  }
 }
